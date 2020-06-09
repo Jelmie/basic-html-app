@@ -1,0 +1,92 @@
+$barium-yellow:#fefddf;
+$maze:#ffd879;
+$chrome-orange: #fec369;
+$pink: #fbd6dd;
+$dog-rose-flower: #f493be;
+$prune: #aab8db;
+$sky:   #8acef3;
+$light-grayish-cobalt: #60c5cf;
+$frost-blue:    #ddf0f4;
+$lime-green: #c3e4cd;
+$nile-green: #7bc576;
+
+
+$primary-color: $frost-blue;
+
+html{
+    font-size:16px;
+
+}
+
+body {
+    height:100%;
+} 
+
+.carrousel {
+    height:10em;
+    background:#291;
+}
+
+#logo {
+    position: relative;
+    text-align: center;
+    height:2em;
+    top: -0.3em;
+    color:#fff;
+    background:#ffd879;
+    font-size: 7em;
+    width:100%;
+}
+
+.container {
+}
+
+p {
+}
+
+.thickboii {
+    width:300px;
+    height:300px;
+    display:block;
+}
+
+footer {
+}
+
+footer > p{
+    text-align:center;
+}
+//Maian navigaion
+menu {
+    position:fixed;
+    z-index:100;
+    left:0;
+    top:0;
+}
+
+aside {
+    positionn:fixed;
+    z-index:100;
+    top:0;
+}
+
+#main-nav {
+    display:none;
+}
+#navboi {
+    cursor: pointer;
+}
+
+aside {
+    position:absolute;
+    right:0
+}
+
+#titleboi {
+    vertical-align: text-bottom;
+}
+
+#titleboi > h4 {
+    position: absolute;
+    bottom:0;
+}
